@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "allowJs": true,
+    "target": "ES5",
+    "outDir": "./dist",
+    "moduleResolution": "Node",
+    "lib": ["ES2015", "DOM", "DOM.Iterable"],
+    "jsx": "preserve",
+    "strict": true,
+  },
+  "include": ["./src/**/*", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "dist"]
+}
